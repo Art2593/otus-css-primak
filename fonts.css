@@ -1,0 +1,46 @@
+/* Подключаем шрифт через дерективу @font-face */
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+        /* Если не получилось, загрузит ttf */
+    url('/fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local('Roboto'),
+        /* Если не получилось, загрузит ttf */
+    url('/fonts/Roboto/Roboto-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+        /* Если не получилось, загрузит ttf */
+    url("/fonts/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Playfair_Display"),
+        /* Если не получилось, загрузит ttf */
+    url("/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Bitter";
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Bitter"),
+        /* Если не получилось, загрузит ttf */
+    url("/fonts/Bitter/static/Bitter-Regular.ttf") format("ttf");
+}
+
