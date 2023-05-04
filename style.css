@@ -1,0 +1,158 @@
+
+body {
+    /* шрифт */
+    font-family: Roboto, Playfair Display, Bitter,sans-serif;
+    /* размер шрифта */
+    font-size: 20px;
+    /* размер строки */
+    line-height: 23px;
+
+}
+
+h1{
+    font-family: Playfair Display,sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.Modern_Web_Studio{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Biography{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Katya_Mills{
+    font-family: Playfair Display,sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Info_About_Art_Director{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Text_From_Katya_Mils{
+    font-family: Bitter,sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Designers{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Info_About_Each_Designer{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Weight_700_For_Each_Designer{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Testimonials{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Creativity{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Site_Name{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Text_Testimonials{
+    font-family: Bitter,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.Strong_Points{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Strengths{
+    font-family: Playfair Display,sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.List_Of_Strengths{
+    font-family: Bitter,sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+
