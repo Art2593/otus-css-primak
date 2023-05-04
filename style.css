@@ -9,13 +9,66 @@ body {
 
 }
 
+.wrapper-header{
+    max-width: 1440px;
+    height: 135px;
+    /*outline: 1px solid red;*/
+    /*Центрируем*/
+    margin: 0 auto;
+    /*кнопка станет по центру так как это строчно-блочный элемент*/
+    text-align: center;
+}
+
+.menu{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* Для центрирования добавляем класс wrapper*/
+.wrapper-hero{
+    /* указываем ширину этого элемента
+    max-width максимальная ширина */
+    max-width: 1065px;
+    /* смотрим что происходит
+    делаем рамки 55ая минута*/
+    /*outline: 1px solid red;*/
+    /*Центрируем*/
+    margin: 0 auto;
+}
+.hero{
+    /*<!--    что-то поверх чего-то это всегда позиционирование-->*/
+    background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash.jpg");
+    position: relative;
+    height: 630px;
+}
+
+
+.hero-box{
+    background-color: white;
+    /* 56% ширины занимает от прямоугольника где вложен этот White_Box
+    600*100*1065=56%*/
+    width: 56%;
+    height: 360px;
+    position: absolute;
+
+    top: 50%;
+    /* от лева родителя на 50% правее*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+
+}
+
 h1{
     font-family: Playfair Display,sans-serif;
     font-size: 86px;
     font-weight: 500;
     line-height: 103px;
-    letter-spacing: 0em;
     text-align: center;
+    margin-top: 110px;
+    margin-bottom: 0;
+
+
 
 }
 
@@ -24,8 +77,8 @@ h1{
     font-size: 20px;
     font-weight: 500;
     line-height: 23px;
-    letter-spacing: 0em;
     text-align: center;
+    margin-top: 14px;
 }
 
 .Biography{
