@@ -72,6 +72,54 @@ h1{
 
 }
 
+.Biography_Section {
+    display: flex;
+    max-width: 1175px;
+    height: 840px;
+    /*padding: 10px;*/
+    border: 2px solid red;
+    flex-flow: row nowrap;
+
+    /*Центрируем*/
+    margin-top: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.item-1 {
+    /*background-image: url("img/jared-weiss-P3cB0ynqYBw-unsplash.jpg");*/
+    /*background-color: purple;*/
+    /*flex-basis задаёт базовый размер флекс элемента по основной оси(ширина).
+    Зависит от оси*/
+    /*width: 47%;*/
+    flex-basis: 47%;
+    /*overflow: hidden;*/
+    /*object-fit: cover;*/
+    height: 100%;
+    /*object-position: center;*/
+    /*width: 100%;*/
+    /*display: inline-block;*/
+    /*overflow: hidden;*/
+}
+/*“Найти элемент с классом item-1, где-то в нем
+найти img и применить для него свойства”
+*/
+.item-1 img {
+    width: 100%;
+    /*height: auto;*/
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-2 {
+    background-color: white;
+    flex-basis: 53%;
+    /*display: inline-block;*/
+    height:100%;
+}
+
 .Modern_Web_Studio{
     font-family: Roboto,sans-serif;
     font-size: 20px;
@@ -82,15 +130,26 @@ h1{
 }
 
 .Biography{
+    /*Только так смог перевернуть*/
+    position: absolute;
+    transform: rotate(-90deg);
+
+
     font-family: Roboto,sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
+
+    margin-top: 20px;
+    margin-right: 566px;
+    margin-bottom: 746px;
+    margin-left: 33px;
+
+
 
 }
 .Katya_Mills{
+
     font-family: Playfair Display,sans-serif;
     font-size: 86px;
     font-weight: 500;
@@ -98,14 +157,33 @@ h1{
     letter-spacing: 0em;
     text-align: left;
 
+    /*width: 475px;*/
+
+    margin-top: 163px;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 147px;
+
 }
 .Info_About_Art_Director{
     font-family: Roboto,sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
-    letter-spacing: 0em;
     text-align: left;
+
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 65px;
+    margin-left: 147px;
+
+}
+.Rectangle{
+
+    margin-top: 65px;
+    margin-right: 0;
+    margin-bottom: 17px;
+    margin-left: 147px;
 
 }
 .Text_From_Katya_Mils{
@@ -113,8 +191,13 @@ h1{
     font-size: 26px;
     font-weight: 400;
     line-height: 31px;
-    letter-spacing: 0em;
-    text-align: left;
+
+
+    margin-top: 17px;
+    margin-right: 28px;
+    margin-bottom: 170px;
+    margin-left: 145px;
+
 
 }
 .Designers{
@@ -192,7 +275,6 @@ h1{
     font-size: 86px;
     font-weight: 500;
     line-height: 115px;
-    letter-spacing: 0em;
     text-align: left;
 
 }
