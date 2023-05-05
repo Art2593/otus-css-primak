@@ -77,7 +77,7 @@ h1{
     max-width: 1175px;
     height: 840px;
     /*padding: 10px;*/
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     flex-flow: row nowrap;
 
     /*Центрируем*/
