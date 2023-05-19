@@ -36,7 +36,7 @@ body {
 }
 .hero{
     /*<!--    что-то поверх чего-то это всегда позиционирование-->*/
-    background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash.jpg");
+    background-image: url("../img/inside-weather.jpg");
     position: relative;
     height: 630px;
 }
@@ -87,7 +87,7 @@ h1{
     margin-bottom: 0;
 }
 
-.item-1 {
+.biography-image {
     /*background-image: url("img/jared-weiss-P3cB0ynqYBw-unsplash.jpg");*/
     /*background-color: purple;*/
     /*flex-basis задаёт базовый размер флекс элемента по основной оси(ширина).
@@ -105,7 +105,7 @@ h1{
 /*“Найти элемент с классом item-1, где-то в нем
 найти img и применить для него свойства”
 */
-.item-1 img {
+.biography-image img {
     width: 100%;
     /*height: auto;*/
     height: 100%;
@@ -113,7 +113,7 @@ h1{
     object-position: center;
 }
 
-.item-2 {
+.biography-info {
     background-color: white;
     flex-basis: 53%;
     /*display: inline-block;*/
@@ -159,7 +159,7 @@ h1{
 
     /*width: 475px;*/
 
-    margin-top: 163px;
+    margin-top: 19%;
     margin-right: 0;
     margin-bottom: 25px;
     margin-left: 147px;
@@ -199,92 +199,6 @@ h1{
     margin-left: 145px;
 
 
-}
-.Designers{
-    font-family: Roboto,sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.Info_About_Each_Designer{
-    font-family: Roboto,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.Weight_700_For_Each_Designer{
-    font-family: Roboto,sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.Testimonials{
-    font-family: Roboto,sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.Creativity{
-    font-family: Roboto,sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.Site_Name{
-    font-family: Roboto,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.Text_Testimonials{
-    font-family: Bitter,sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: center;
-
-}
-.Strong_Points{
-    font-family: Roboto,sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.Strengths{
-    font-family: Playfair Display,sans-serif;
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 115px;
-    text-align: left;
-
-}
-.List_Of_Strengths{
-    font-family: Bitter,sans-serif;
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 41px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 
