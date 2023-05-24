@@ -36,7 +36,7 @@ body {
 }
 .hero{
     /*<!--    что-то поверх чего-то это всегда позиционирование-->*/
-    background-image: url("../img/inside-weather.jpg");
+    background-image: url("/img/inside-weather.jpg");
     position: relative;
     height: 630px;
 }
@@ -154,7 +154,6 @@ h1{
     font-size: 86px;
     font-weight: 500;
     line-height: 115px;
-    letter-spacing: 0em;
     text-align: left;
 
     /*width: 475px;*/
@@ -199,6 +198,463 @@ h1{
     margin-left: 145px;
 
 
+}
+.Designers{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+
+    transform: rotate(-90deg);
+    text-align: justify;
+
+
+
+}
+.Info_About_Each_Designer{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.Weight_700_For_Each_Designer{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+/*Designers*/
+
+.container-designers{
+    border: 1px solid black;
+    height: 513px;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+
+.child_1 {
+    flex-basis: 100%;
+    background-image: url("/img/spurwing-agency-r6LceZ3ckpM-unsplash.png");
+
+}
+/*.child_1 > img{*/
+
+/*    max-height: 85%;*/
+/*    object-fit: cover;*/
+/*    object-position: center;*/
+/*}*/
+.child_2{
+    flex-basis: 30%;
+    background-color: bisque;
+
+}
+/*.child_2 > img{*/
+/*    position: relative;*/
+/*    max-height: 85%;*/
+/*    object-fit: cover;*/
+/*    object-position: center;*/
+/*}*/
+.child_3{
+    flex-basis: 70%;
+    background-color: purple;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.child_3_1 {
+    flex-basis: 100%;
+    background-image: url("/img/spurwing-agency-r6LceZ3ckpM-unsplash.png");
+
+}
+
+
+
+
+
+.designers {
+    height: 619px;
+    max-width: 1337px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+
+
+    margin-top: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+}
+.designer-element {
+    width: 25%;
+
+
+
+}
+
+
+.designer-element:first-child {
+    width: 50%;
+}
+
+.designer-element:first-child > div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+.designer-element:first-child > img {
+    max-width: 85%;
+}
+
+.designer-element strong {
+    text-transform: uppercase;
+}
+
+/*Test Testimonials-1*/
+.Testimonials{
+    height: 813px;
+    max-width: 1440px;
+
+    /*Центрируем*/
+    /*margin-top: 261px; это по макету*/
+    margin-top: 91px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+
+    display: grid;
+    /*задаем шаблон, т.е. сколлько будет колонок
+    /*и сколько будет строк*!*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*202px - 0.42fr 515px-1.07fr 723px-1.51fr*/
+    grid-template-columns: 0.42fr 1.07fr 1.51fr;
+    /*56px-0.483fr 126,16px - 1.086fr*/
+    grid-template-rows: 0.483fr 1.086fr 1.086fr 1.086fr 1.086fr 1.086fr 1.086fr;
+
+    grid-gap: 1px;
+    /*делаем так что бы текст не выходил за рамки ячейки*/
+    grid-auto-rows: minmax(100px, auto);
+
+
+
+}
+
+.item{
+
+    /*border: 1px solid black*/
+}
+.item_1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item_2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+.item_3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: span 6;
+}
+.item_3 img {
+    width: 100%;
+    /*height: auto;*/
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.item_4{
+    grid-column: 3/4;
+    grid-row: 2/span 3;
+
+    /*выравниваем по центру*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*justify-self: center;*/
+
+}
+.item_5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 4;
+    grid-row-end: span 2;
+
+}
+.item_6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 6;
+    grid-row-end: span 2;
+}
+.item_7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 5;
+    grid-row-end: span 3;
+
+    /*выравниваем по центру*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Test Testimonials-2*/
+
+.Testimonial{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: 9.16%;
+    margin-bottom: 0;
+
+
+}
+
+.Creativities  {
+    transform: rotate(-90deg);
+    margin-top: 59.16%;
+
+    margin-left: 40.00%;
+    margin-bottom: 0;
+}
+.Creativity{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+.Site_Name{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.Text_Testimonials{
+    font-family: Bitter,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+
+    /*margin-top: 0;*/
+    /*margin-right: 31.27%;*/
+    /*margin-left: 31.27%;*/
+    /*margin-bottom: 0;*/
+
+}
+/*.strong_point_container{*/
+/*    height: 665px;*/
+/*    max-width: 1686px;*/
+
+/*    !*Центрируем*!*/
+/*    margin-top: 91px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    margin-bottom: 0;*/
+
+
+/*    display: grid;*/
+/*    grid-gap: 1px;*/
+/*    !*задаем шаблон, т.е. сколлько будет колонок- и строк*/
+/*    !*и сколько будет строк*!*!*/
+/*    !*grid-template-columns: repeat(3, 1fr);*!*/
+/*    grid-template-columns: 0.896fr 0.896fr 1.104fr 1.104fr;*/
+/*    grid-template-rows: 0.632fr 1.184fr 1.184fr ;*/
+/*    column-gap: 1.77%;*/
+/*}*/
+.strong_point_container{
+    height: 665px;
+    max-width: 1686px;
+
+    /*Центрируем*/
+    margin-top: 91px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+
+    display: -ms-grid;
+
+
+    display: grid;
+    grid-gap: 1px;
+    /*задаем шаблон, т.е. сколлько будет колонок- и строк
+    /*и сколько будет строк*!*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    -ms-grid-columns: 0.896fr 1.77% 0.896fr 1.77% 1.104fr 1.77% 1.104fr;
+    grid-template-columns: 0.896fr 0.896fr 1.104fr 1.104fr;
+    -ms-grid-rows: 0.632fr 1px 1.184fr 1px 1.184fr;
+    grid-template-rows: 0.632fr 1.184fr 1.184fr ;
+    -webkit-column-gap: 1.77%;
+    -moz-column-gap: 1.77%;
+    column-gap: 1.77%;
+}.strong_point_container > *:nth-child(1){
+     -ms-grid-row: 1;
+     -ms-grid-column: 1;
+ }.strong_point_container > *:nth-child(2){
+      -ms-grid-row: 1;
+      -ms-grid-column: 3;
+  }.strong_point_container > *:nth-child(3){
+       -ms-grid-row: 1;
+       -ms-grid-column: 5;
+   }.strong_point_container > *:nth-child(4){
+        -ms-grid-row: 1;
+        -ms-grid-column: 7;
+    }.strong_point_container > *:nth-child(5){
+         -ms-grid-row: 3;
+         -ms-grid-column: 1;
+     }.strong_point_container > *:nth-child(6){
+          -ms-grid-row: 3;
+          -ms-grid-column: 3;
+      }.strong_point_container > *:nth-child(7){
+           -ms-grid-row: 3;
+           -ms-grid-column: 5;
+       }.strong_point_container > *:nth-child(8){
+            -ms-grid-row: 3;
+            -ms-grid-column: 7;
+        }.strong_point_container > *:nth-child(9){
+             -ms-grid-row: 5;
+             -ms-grid-column: 1;
+         }.strong_point_container > *:nth-child(10){
+              -ms-grid-row: 5;
+              -ms-grid-column: 3;
+          }.strong_point_container > *:nth-child(11){
+               -ms-grid-row: 5;
+               -ms-grid-column: 5;
+           }.strong_point_container > *:nth-child(12){
+                -ms-grid-row: 5;
+                -ms-grid-column: 7;
+            }
+.element{
+    /*border: 1px solid black*/
+}
+.element_1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    /*центируем по оси х*/
+    justify-content: center;
+    /*центируем по оси у*/
+    align-items: center;
+
+
+
+
+}
+.element_2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.element_3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.element_3 img {
+    width: 100%;
+    /*height: auto;*/
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.element_4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.element_4 img {
+    width: 100%;
+    /*height: auto;*/
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.element_5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element_6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.element_6 img {
+    width: 100%;
+    /*height: auto;*/
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Strong_Points{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+
+
+    transform: rotate(-90deg);
+    margin-left: 7%;
+
+
+
+}
+.Strengths{
+    font-family: Playfair Display,sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 115px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.List_Of_Strengths{
+    font-family: Bitter,sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: left;
 }
 
 
