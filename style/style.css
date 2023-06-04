@@ -231,99 +231,80 @@ h1{
     text-align: left;
 }
 /*Designers*/
+.container_designers{
+    position: relative;
 
-.container-designers{
-    border: 1px solid black;
-    height: 513px;
-    max-width: 1440px;
-    display: flex;
-    flex-flow: column wrap;
-
-}
-
-
-.child_1 {
-    flex-basis: 100%;
-    background-image: url("../img/spurwing-agency-r6LceZ3ckpM-unsplash.png");
-
-}
-/*.child_1 > img{*/
-
-/*    max-height: 85%;*/
-/*    object-fit: cover;*/
-/*    object-position: center;*/
-/*}*/
-.child_2{
-    flex-basis: 30%;
-    background-color: bisque;
-
-}
-/*.child_2 > img{*/
-/*    position: relative;*/
-/*    max-height: 85%;*/
-/*    object-fit: cover;*/
-/*    object-position: center;*/
-/*}*/
-.child_3{
-    flex-basis: 70%;
-    background-color: purple;
-    display: flex;
-    flex-flow: row nowrap;
-}
-.child_3_1 {
-    flex-basis: 100%;
-    background-image: url("../img/spurwing-agency-r6LceZ3ckpM-unsplash.png");
-
-}
-
-
-
-
-
-.designers {
     height: 619px;
     max-width: 1337px;
 
     display: flex;
     flex-flow: row nowrap;
-    align-items: baseline;
+    align-items: flex-end;
+    gap: 30px;
+
 
 
     margin-top: 135px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+}
+.h2_designers{
+    top: -2.5%;
+    left: 67%;
+    position: absolute;
+
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+
+    transform: rotate(-90deg);
+    text-align: justify;
+
+
 
 }
-.designer-element {
-    width: 25%;
+.designer{
+    /*background-color: #eee;*/
+    /*border-radius: 6px;*/
+    /*border: 1px solid grey;*/
+    /*padding: 0 1rem 1rem 1rem;*/
 
-
-
-}
-
-
-.designer-element:first-child {
-    width: 50%;
-}
-
-.designer-element:first-child > div {
     display: flex;
-    align-content: center;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc(33.3%);
+}
+.designer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.best_designer{
+    display: flex;
+    flex-basis: 50%;
+    height: 100%;
+}
+.Info_About_Each_Designer{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
-
-
-.designer-element:first-child > img {
-    max-width: 85%;
+.Info_About_Designer{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-
-.designer-element strong {
-    text-transform: uppercase;
-}
-
 /*Test Testimonials-1*/
 .Testimonials{
     height: 813px;
