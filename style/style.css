@@ -312,6 +312,7 @@ h1{
 .item_1{
     grid-column-start: 1;
     grid-column-end: 4;
+    /*display: none;*/
 }
 .item_2{
     grid-column-start: 1;
@@ -374,6 +375,7 @@ h1{
     align-items: center;
 
 }
+
 
 /*Test Testimonials-2*/
 
@@ -613,6 +615,35 @@ h1{
     font-weight: 400;
     line-height: 41px;
     text-align: left;
+}
+
+
+/* Menu */
+.site_menu {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 2rem;
+    z-index: 2;
+
+
+}
+
+
+.menu_sections {
+    display: flex;
+    position: relative;
+    z-index: 3;
+    flex-flow: column wrap;
+
+    min-width: 10rem;
+
+    background-color: #fff;
+    display: none;
+}
+
+.menu__items a {
+    margin: 0.5rem 2rem;
 }
 
 
