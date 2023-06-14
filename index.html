@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--обязательная стрка для меда-запросов-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -12,14 +17,24 @@
 
 </head>
 <body>
-<!--Header--->
+<!--Header-->
 <header class="wrapper-header">
     <!--Меню-->
-    <nav>
-        <a href="">
-            <img class="menu" src="img/Menu.png" alt="Меню">
-        </a>
-    </nav>
+    <a class="desktop_menu" href="">
+        <img class="menu" src="img/Menu.png" alt="Меню">
+    </a>
+    <div class="site_menu">
+
+        <nav class="menu_sections">
+            <!--            <a href="">-->
+            <!--                <img class="menu" src="img/Menu.png" alt="Меню">-->
+            <a href="#">B</a>
+            <a href="#">D</a>
+            <a href="#">T</a>
+            <a href="#">S</a>
+            <!--            </a>-->
+        </nav>
+    </div>
 </header>
 
 <!--Hero section-->
@@ -34,21 +49,21 @@
 </section>
 
 <!--Biography-->
-<div class="Biography_Section">
-    <div class="biography-image">
-        <img src='img/jared-weiss-P3cB0ynqYBw-unsplash.jpg' alt='Katya Mills'>
+<div class="biography_section">
+    <div class="biography__image">
+        <img class="grey_image" src='img/jared-weiss-P3cB0ynqYBw-unsplash.jpg' alt='Katya Mills'>
     </div>
 
-    <div class="biography-info">
-        <p><b class="Biography">Biography</b></p>
-        <h2 class="Katya_Mills">Katya <br>Mills</h2>
-        <p class="Info_About_Art_Director">
-            Art Director<br> Scenography / Styling / Creative Photography / Design
+    <div class="biography__info">
+        <p><b class="biography__section_name">Biography</b></p>
+        <h2 class="biography__art_director_name">Katya Mills</h2>
+        <p class="biography__info_about_art_director">
+            Art Director<br> /Scenography /Styling /Creative /Photography /Design
         </p>
-        <div class="Rectangle">
+        <div class="biography__decor_for_text">
             <img src="img/Rectangle.png" alt="Rectangle">
         </div>
-        <p class="Text_From_Katya_Mils">“The more I deal with the work<br>
+        <p class="biography__belief_of_art_director">“The more I deal with the work<br>
             as something that is my own,<br>
             as something that is personal,<br>
             the more successful it is.”
@@ -114,8 +129,8 @@
     </div>
     <div class="item item_4">
 
-        <p class="Text_Testimonials">I just really<br> want to do<br> good work <br>
-            and work with<br> some great <br>people, people<br> who challenge me.</p>
+        <p class="Text_Testimonials">I just really want to do good work
+            and work with some great people, people who challenge me.</p>
 
         <!--                <p class="Text_Testimonials">I just really want to do good work -->
         <!--                    and work with some great people, people who challenge me.</p>-->
