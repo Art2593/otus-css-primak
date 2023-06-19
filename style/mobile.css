@@ -15,8 +15,11 @@
     /* Hero section */
     .hero{
         /*<!--    что-то поверх чего-то это всегда позиционирование-->*/
-        /*background: no-repeat center/cover url("img/inside-weather-Uxqlfigh6oE-unsplash.jpg");*/
-        background-image: url("/img/inside-weather.jpg");
+        /*Так картинка как-то не наслаивается*/
+        background: no-repeat center/cover url("/img/inside-weather.jpg");
+        /*background: no-repeat url("/img/inside-weather.jpg");*/
+        /*Так картинка как-то наслаивается*/
+        /*background-image: url("/img/inside-weather.jpg");*/
         position: relative;
         height: 764px;
     }
@@ -169,7 +172,7 @@
 
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         flex-basis: calc(33.3%);
 
 
@@ -243,6 +246,7 @@
 
         grid-row-start: 6;
         grid-row-end: span 1;
+        margin-left: 20px;
     }
     .item_3{
         /*grid-column-start: 2;*/
@@ -275,6 +279,8 @@
 
         grid-row-start: 7;
         grid-row-end: span 1;
+        margin-top: -15px;
+        margin-left: 20px;
 
     }
     .item_6{
@@ -283,6 +289,7 @@
 
         grid-row-start: 6;
         grid-row-end: span 1;
+        margin-right: 18px;
     }
     .item_7{
         grid-column-start: 1;
@@ -336,7 +343,7 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
-        text-align: left;
+        margin-top: -15px;
     }
 
     .text_testimonials{
@@ -478,6 +485,7 @@
         margin-left: -90px;
     }
     .list_of_strengths li{
+        list-style: none;
         margin-bottom: 20px;
 
     }
@@ -491,6 +499,7 @@
         bottom: 0;
         width: 100%;
         height: calc(4rem + 1px);
+
     }
 
 
@@ -500,6 +509,7 @@
         justify-content: space-around;
         height: 100%;
         border-top: 1px solid black;
+        padding-top: 12px;
     }
 
     .menu_sections a {
