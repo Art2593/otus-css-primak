@@ -9,7 +9,7 @@ body {
 
 }
 
-.wrapper-header{
+.wrapper_header{
     max-width: 1440px;
     height: 135px;
     /*outline: 1px solid red;*/
@@ -24,7 +24,7 @@ body {
     margin-bottom: 60px;
 }
 /* Для центрирования добавляем класс wrapper*/
-.wrapper-hero{
+.wrapper_hero{
     /* указываем ширину этого элемента
     max-width максимальная ширина */
     max-width: 1065px;
@@ -42,7 +42,7 @@ body {
 }
 
 
-.hero-box{
+.hero_box{
     background-color: white;
     /* 56% ширины занимает от прямоугольника где вложен этот White_Box
     600*100*1065=56%*/
@@ -72,7 +72,7 @@ h1{
 
 }
 
-.Biography_Section {
+.biography_section {
     display: flex;
     max-width: 1175px;
     height: 840px;
@@ -87,7 +87,7 @@ h1{
     margin-bottom: 0;
 }
 
-.biography-image {
+.biography_image {
     /*background-image: url("img/jared-weiss-P3cB0ynqYBw-unsplash.jpg");*/
     /*background-color: purple;*/
     /*flex-basis задаёт базовый размер флекс элемента по основной оси(ширина).
@@ -105,7 +105,7 @@ h1{
 /*“Найти элемент с классом item-1, где-то в нем
 найти img и применить для него свойства”
 */
-.biography-image img {
+.biography_image img {
     width: 100%;
     /*height: auto;*/
     height: 100%;
@@ -113,14 +113,14 @@ h1{
     object-position: center;
 }
 
-.biography-info {
+.biography_info {
     background-color: white;
     flex-basis: 53%;
     /*display: inline-block;*/
     height:100%;
 }
 
-.Modern_Web_Studio{
+.modern_web_studio{
     font-family: Roboto,sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -129,7 +129,7 @@ h1{
     margin-top: 14px;
 }
 
-.Biography{
+.biography{
     /*Только так смог перевернуть*/
     position: absolute;
     transform: rotate(-90deg);
@@ -148,7 +148,7 @@ h1{
 
 
 }
-.Katya_Mills{
+.katya_mills{
 
     font-family: Playfair Display,sans-serif;
     font-size: 86px;
@@ -164,7 +164,7 @@ h1{
     margin-left: 147px;
 
 }
-.Info_About_Art_Director{
+.info_about_art_director{
     font-family: Roboto,sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -177,7 +177,7 @@ h1{
     margin-left: 147px;
 
 }
-.Rectangle{
+.rectangle{
 
     margin-top: 65px;
     margin-right: 0;
@@ -185,7 +185,7 @@ h1{
     margin-left: 147px;
 
 }
-.Text_From_Katya_Mils{
+.text_from_katya_mils{
     font-family: Bitter,sans-serif;
     font-size: 26px;
     font-weight: 400;
@@ -219,8 +219,8 @@ h1{
     margin-bottom: 0;
 }
 .h2_designers{
-    top: -2.5%;
-    left: 67%;
+    top: -8.5%;
+    left: 66%;
     position: absolute;
 
     font-family: Roboto,sans-serif;
@@ -243,7 +243,7 @@ h1{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex-basis: calc(33.3%);
 }
 .designer img{
@@ -257,7 +257,7 @@ h1{
     flex-basis: 50%;
     height: 100%;
 }
-.Info_About_Each_Designer{
+.info_about_each_designer{
     font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -266,7 +266,7 @@ h1{
     text-align: left;
 }
 
-.Info_About_Designer{
+.info_about_designer{
     font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -276,7 +276,7 @@ h1{
 }
 
 /*Test Testimonials-1*/
-.Testimonials{
+.testimonials{
     height: 813px;
     max-width: 1440px;
 
@@ -312,6 +312,7 @@ h1{
 .item_1{
     grid-column-start: 1;
     grid-column-end: 4;
+    /*display: none;*/
 }
 .item_2{
     grid-column-start: 1;
@@ -319,6 +320,7 @@ h1{
 
     grid-row-start: 2;
     grid-row-end: span 2;
+
 }
 .item_3{
     grid-column-start: 2;
@@ -375,9 +377,10 @@ h1{
 
 }
 
+
 /*Test Testimonials-2*/
 
-.Testimonial{
+.testimonial{
     font-family: Roboto,sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -391,29 +394,30 @@ h1{
 
 }
 
-.Creativities  {
+.creativities  {
     transform: rotate(-90deg);
     margin-top: 59.16%;
 
     margin-left: 40.00%;
     margin-bottom: 0;
 }
-.Creativity{
+.creativity{
     font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     text-align: left;
 }
-.Site_Name{
+.site_name{
     font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     text-align: left;
+    margin-top: -15px;
 }
 
-.Text_Testimonials{
+.text_testimonials{
     font-family: Bitter,sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -585,7 +589,7 @@ h1{
 /*    object-fit: cover;*/
 /*    object-position: center;*/
 /*}*/
-.Strong_Points{
+.strong_points{
     font-family: Roboto,sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -598,7 +602,7 @@ h1{
 
 
 }
-.Strengths{
+.strengths{
     font-family: Playfair Display,sans-serif;
     font-size: 86px;
     font-weight: 500;
@@ -607,12 +611,42 @@ h1{
     margin-bottom: 0;
 
 }
-.List_Of_Strengths{
+.list_of_strengths{
     font-family: Bitter,sans-serif;
     font-size: 34px;
     font-weight: 400;
     line-height: 41px;
     text-align: left;
+    list-style: none;
+}
+
+
+/* Menu */
+.site_menu {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 2rem;
+    z-index: 2;
+
+
+}
+
+
+.menu_sections {
+    display: flex;
+    position: relative;
+    z-index: 3;
+    flex-flow: column wrap;
+
+    min-width: 10rem;
+
+    background-color: #fff;
+    display: none;
+}
+
+.menu__items a {
+    margin: 0.5rem 2rem;
 }
 
 

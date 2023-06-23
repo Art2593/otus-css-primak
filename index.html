@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!--обязательная стрка для меда-запросов--->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -12,43 +17,52 @@
 
 </head>
 <body>
-<!--Header--->
-<header class="wrapper-header">
+<!--Header-->
+<header class="wrapper_header">
     <!--Меню-->
-    <nav>
-        <a href="">
+    <div class="site_menu">
+        <a class="desktop_menu" href="">
             <img class="menu" src="img/Menu.png" alt="Меню">
         </a>
-    </nav>
+        <nav class="menu_sections">
+            <!--            <a href="">-->
+            <!--                <img class="menu" src="img/Menu.png" alt="Меню">-->
+            <a href="#">B</a>
+            <a href="#">D</a>
+            <a href="#">T</a>
+            <a href="#">S</a>
+            <!--            </a>-->
+        </nav>
+    </div>
 </header>
 
 <!--Hero section-->
 <!-- Для центрирования добавляем класс wrapper-->
 
-<section class="hero wrapper-hero">
+<section class="hero wrapper_hero">
     <!--Контейнер для контента с подписью Frame 26-->
-    <div class="hero-box">
+    <div class="hero_box">
         <h1>Mod Studio</h1>
-        <h2 class="Modern_Web_Studio" >Modern Web Studio</h2>
+        <h2 class="modern_web_studio" >Modern Web Studio</h2>
     </div>
 </section>
 
 <!--Biography-->
-<div class="Biography_Section">
-    <div class="biography-image">
+<div class="biography_section">
+    <div class="biography_image">
         <img src='img/jared-weiss-P3cB0ynqYBw-unsplash.jpg' alt='Katya Mills'>
     </div>
 
-    <div class="biography-info">
-        <p><b class="Biography">Biography</b></p>
-        <h2 class="Katya_Mills">Katya <br>Mills</h2>
-        <p class="Info_About_Art_Director">
-            Art Director<br> Scenography / Styling / Creative Photography / Design
+    <div class="biography_info">
+        <p><b class="biography">Biography</b></p>
+        <h2 class="katya_mills">Katya Mills</h2>
+        <p class="info_about_art_director">
+            Art Director<br> /Scenography /Styling /Creative /Photography /Design
         </p>
-        <div class="Rectangle">
+        <div class="rectangle">
             <img src="img/Rectangle.png" alt="Rectangle">
         </div>
-        <p class="Text_From_Katya_Mils">“The more I deal with the work<br>
+        <p class="text_from_katya_mils">“The more I deal with the work<br>
             as something that is my own,<br>
             as something that is personal,<br>
             the more successful it is.”
@@ -66,28 +80,28 @@
     <h2 class="h2_designers">Designers</h2>
     <div class="designer best_designer">
         <img src="img/spurwing-agency-r6LceZ3ckpM-unsplash.png" alt="">
-        <p class="Info_About_Each_Designer">
-            <b class="Info_About_Designer">Jess Wonder</b><br>
-            <b class="Info_About_Designer">From</b>/ Be more flower<br>
-            <b class="Info_About_Designer">Skills</b>/ Design Strategy / Marketing
+        <p class="info_about_each_designer">
+            <b class="info_about_designer">Jess Wonder</b><br>
+            <b class="info_about_designer">From</b>/ Be more flower<br>
+            <b class="info_about_designer">Skills</b>/ Design Strategy / Marketing
         </p>
     </div>
 
     <div class="designer">
         <img src="img/stil-P1jQzyvqfns-unsplash.png" alt="">
-        <p class="Info_About_Each_Designer">
-            <b class="Info_About_Designer">Kameron Clein</b><br>
-            <b class="Info_About_Designer">From</b>/ Be more flower<br>
-            <b class="Info_About_Designer">Skills</b>/ Design Strategy / Marketing
+        <p class="info_about_each_designer">
+            <b class="info_about_designer">Kameron Clein</b><br>
+            <b class="info_about_designer">From</b>/ Be more flower<br>
+            <b class="info_about_designer">Skills</b>/ Design Strategy / Marketing
         </p>
     </div>
 
     <div class="designer">
         <img src="img/stil-_mvSe9q8_n4-unsplash.png" alt="">
-        <p class="Info_About_Each_Designer">
-            <b class="Info_About_Designer">LOUISSE RED</b><br>
-            <b class="Info_About_Designer">From</b>/ Be more flower<br>
-            <b class="Info_About_Designer">Skills</b>/ Design Strategy / Marketing
+        <p class="info_about_each_designer">
+            <b class="info_about_designer">LOUISSE RED</b><br>
+            <b class="info_about_designer">From</b>/ Be more flower<br>
+            <b class="info_about_designer">Skills</b>/ Design Strategy / Marketing
         </p>
     </div>
 </section>
@@ -97,14 +111,14 @@
 
 <!--Test Testimonials-1 -->
 
-<div class="Testimonials">
+<div class="testimonials">
     <div class="item item_1">
-        <h2 class="Testimonial">Testimonials</h2>
+        <h2 class="testimonial">Testimonials</h2>
     </div>
     <div class="item item_2">
-        <div class="Creativities">
-            <h3 class="Creativity">Website</h3>
-            <p class="Site_Name"> www.whitepapers.com</p>
+        <div class="creativities">
+            <h3 class="creativity">Website</h3>
+            <p class="site_name"> www.whitepapers.com</p>
         </div>
     </div>
     <div class="item item_3">
@@ -114,22 +128,22 @@
     </div>
     <div class="item item_4">
 
-        <p class="Text_Testimonials">I just really<br> want to do<br> good work <br>
-            and work with<br> some great <br>people, people<br> who challenge me.</p>
+        <p class="text_testimonials">I just really want to do<br> good work
+            and work <br>with some great people,<br> people who challenge<br> me.</p>
 
         <!--                <p class="Text_Testimonials">I just really want to do good work -->
         <!--                    and work with some great people, people who challenge me.</p>-->
     </div>
     <div class="item item_5">
-        <div class="Creativities">
-            <h3 class="Creativity">Creativity</h3>
-            <p class="Site_Name"> www.whitepapers.com</p>
+        <div class="creativities">
+            <h3 class="creativity">Creativity</h3>
+            <p class="site_name"> www.whitepapers.com</p>
         </div>
     </div>
     <div class="item item_6">
-        <div class="Creativities">
-            <h3 class="Creativity">Creativity</h3>
-            <p class="Site_Name"> www.whitepapers.com</p>
+        <div class="creativities">
+            <h3 class="creativity">Creativity</h3>
+            <p class="site_name"> www.whitepapers.com</p>
         </div>
 
     </div>
@@ -144,10 +158,10 @@
 <!--Strong poins-->
 <div class="strong_point_container">
     <div class="element element_1">
-        <h2 class="Strong_Points">Strong points</h2>
+        <h2 class="strong_points">Strong points</h2>
     </div>
     <div class="element element_2">
-        <h3 class="Strengths">Strengths</h3>
+        <h3 class="strengths">Strengths</h3>
     </div>
     <div class="element element_3">
         <img src="img/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg" alt="Strong poins">
@@ -156,19 +170,19 @@
         <img src="img/avery-klein-JaXs8Tk5Iww-unsplash.png" alt="Strong poins">
     </div>
     <div class="element element_5">
-        <dl class="List_Of_Strengths">
-            <dd>Interiors</dd>
-            <dd>Outdoors</dd>
-            <dd>Portraits</dd>
-            <dd>Styling</dd>
-            <dd>Events</dd>
-            <dd>Architecture</dd>
-            <dd>Celebrations</dd>
-            <dd>Artistic</dd>
-            <dd>Fashion</dd>
-            <dd>Nature</dd>
-            <dd>Creativity</dd>
-        </dl>
+        <ul class="list_of_strengths">
+            <li>Interiors</li>
+            <li>Outdoors</li>
+            <li>Portraits</li>
+            <li>Styling</li>
+            <li>Events</li>
+            <li>Architecture</li>
+            <li>Celebrations</li>
+            <li>Artistic</li>
+            <li>Fashion</li>
+            <li>Nature</li>
+            <li>Creativity</li>
+        </ul>
     </div>
     <div class="element element_6">
         <img src="img/avery-klein-JaXs8Tk5Iww-unsplash.png" alt="Strong poins">
