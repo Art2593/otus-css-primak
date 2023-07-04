@@ -16,7 +16,7 @@
     .hero{
         /*<!--    что-то поверх чего-то это всегда позиционирование-->*/
         /*Так картинка как-то не наслаивается*/
-        background: no-repeat center/cover url("/img/inside-weather.jpg");
+        background: no-repeat center/cover url("/src/img/inside-weather.jpg");
         /*background: no-repeat url("/img/inside-weather.jpg");*/
         /*Так картинка как-то наслаивается*/
         /*background-image: url("/img/inside-weather.jpg");*/
