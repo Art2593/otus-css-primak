@@ -33,6 +33,6 @@ jobs:
         npm run build-prod-webpack
         
     - name: Deploy 🚀
-      uses: Art2593/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
           folder: prod # The folder the action should deploy.
