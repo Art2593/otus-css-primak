@@ -11,20 +11,30 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@squoosh/lib": "^0.5.3",
+    "fs": "^0.0.1-security",
     "http-server": "^14.1.1",
     "lodash": "^4.17.21",
-    "prettier": "^2.8.8"
+    "path": "^0.12.7",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "stream": "^0.0.2"
   },
   "devDependencies": {
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
+    "image-minimizer-webpack-plugin": "^3.8.3",
+    "imagemin": "^8.0.1",
     "mini-css-extract-plugin": "^2.7.6",
+    "squoosh-webpack-plugin": "^2.1.1",
     "style-loader": "^3.3.3",
     "url-loader": "^4.1.1",
     "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-font-preload-plugin": "^1.5.0"
   },
   "keywords": []
 }

@@ -1,6 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const FontPreloadPlugin = require("webpack-font-preload-plugin");
 
 module.exports = {
     mode: 'production',
@@ -13,20 +15,24 @@ module.exports = {
         clean: true,
     },
     plugins: [
+        new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/index.html'), // шаблон
             filename: 'index.html', // название выходного файла
+        }),
+        new FontPreloadPlugin({
+            index: "index.html",
         }),
 
     ],
     module: {
         rules: [
-
-
             {
                 test: /\.css$/,
-                use: ['style-loader', "css-loader"],
+                use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
             },
+
+
             {
                 test: /\.html$/,
                 use: 'html-loader'
@@ -38,6 +44,7 @@ module.exports = {
                     filename: 'images/[name]-[hash][ext]',
                 }
             },
+
             {
                 test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
                 type: 'asset/resource',
@@ -46,6 +53,16 @@ module.exports = {
                 }
             }
         ]
+    },
+    optimization: {
+        minimizer: [
+            // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
+            // `...`,
+            new CssMinimizerPlugin()
+
+
+
+        ],
     },
     devServer: {
         compress: false,
