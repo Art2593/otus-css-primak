@@ -626,14 +626,18 @@ h1{
 
 
 /* Menu */
+.desktop_menu:hover .site_menu {
+    position: relative;
+    top: -10px;
+    transition: all 0.5s ease;
+    animation-fill-mode: backwards;
+}
 .site_menu {
 
     position: relative;
-
-
-    top: -100px;
-    transition: all 0.2s ease;
-    animation-fill-mode: backwards;
+    top: -200px;
+    /*transition: all 0.2s ease;*/
+    /*animation-fill-mode: backwards;*/
 
 
 
@@ -650,11 +654,7 @@ h1{
 
 }
 
-.site_menu:hover{
-    top: -10px;
-    transition: all 0.2s ease;
-    animation-fill-mode: backwards;
-}
+
 
 .menu_sections {
     position: relative;
