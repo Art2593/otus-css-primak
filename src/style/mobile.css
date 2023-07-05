@@ -491,6 +491,7 @@
     }
 
     /* Menu */
+
     .desktop_menu:hover .site_menu {
         position: absolute;
         left: 50%;
